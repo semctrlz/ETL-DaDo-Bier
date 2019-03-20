@@ -32,5 +32,18 @@ namespace ETL_DaDo_Bier.Properties {
                 return ((string)(this["QueopsCubo"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=192.168.2.248;Initial Catalog=DadoBier_Umu;Persist Security Info=True" +
+            ";User ID=dado;Password=Dad01995")]
+        public string QueopsUmuarama {
+            get {
+                return ((string)(this["QueopsUmuarama"]));
+            }
+            set {
+                this["QueopsUmuarama"] = value;
+            }
+        }
     }
 }

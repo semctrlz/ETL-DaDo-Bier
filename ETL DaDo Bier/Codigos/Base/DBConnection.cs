@@ -74,7 +74,7 @@ namespace ETL_DaDo_Bier.Codigos.Base
     public class DALDadosConexao_Queops
     {
         public static string StringConexaoQueopsCubo = Properties.Connections.Default.QueopsCubo;
-        public static string StringConexaoQueopsUmuarama = @"Data Source=192.168.2.248;Initial Catalog=DadoBier_Umu;Persist Security Info=True;User ID=dado;Password=Dad01995";
+        public static string StringConexaoQueopsUmuarama = Properties.Connections.Default.QueopsUmuarama;
         public static string StringConexaoQueopsRetaguarda = @"Data Source=192.168.1.249;Initial Catalog=master;Persist Security Info=True;User ID=dado;Password=Dad01995";
     }
 
